@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <nav class="bg-[#003461] py-8">
+
+        <div class="flex justify-between px-5">
+            <div>
+                <img src="/asset/a.png" alt="">
+            </div>
+            <div class="flex item-center space-x-15 items-center">
+                <div>
+                    <ul class="space-x-10 hidden md:flex">
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#1882DB]">Home</li>
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#1882DB]"> <a href="#about">about us</a>
+                        </li>
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#1882DB]">Author</li>
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#1882DB]">Chapter</li>
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#1882DB]">Blog</li>
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#1882DB]">Shop</li>
+                        <li class="font-sans font-bold text-[#fff] hover:text-[#101f2c]">Contact</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <button
+                        class="bg-[#FF8000] hidden md:flex text-[#ffff] hover:bg-[#ffff] hover:text-[#ff8000] duration-700 ease-in-out pr-[10px]  p-3 rounded-4xl border border-[#ff8000]">Buy
+                        now $ 14.99</button>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="group md:hidden">
+                <span class="cursor-pointer"><i class="fa-solid fa-bars"></i></span>
+                <ul class="  space-x-20 md:space-x-0 
+                     z-30 flex flex-col transform -translate-x-full ease-in-out duration-500
+                       group-hover:-translate-0
+                     absolute md:relative
+                     top-0 left-0 p-5 md:p-0 space-y-4 
+
+                     bg-emerald-950">
+                    <li class="list-none text-[#e5e7eb]">Home</li>
+                    <li class="list-none text-[#e5e7eb]">about us</li>
+                    <li class="list-none text-[#e5e7eb]">Author</li>
+                    <li class="list-none text-[#e5e7eb]">Chapter</li>
+                    <li class="list-none text-[#e5e7eb]">Blog</li>
+                    <li class="list-none text-[#e5e7eb]">Contact</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </nav>
+
+
+
+
+
+
+    <section class="bg-[#003461]">
+        <div class=" lg:flex justify-center md:gap-[20px]  py-25 px-5 md:py-20 md:px-20 md:grid-cols-1 ">
+            <div class="">
+                <h5 class="text-[#ffff] text-lg md:text-[20px]">50% discount on early purchase</h5>
+                <h1 class=" text-5xl md:text-7xl text-[#ffff] py-5 font-bold ">Settle Your Daily life <br
+                        class="md:hidden"> Issue in 1 <span class="text-[#FF8000]">Minute.</span></h1>
+                <p class="text-[#ffff] text-[15px] md:text-[20px] pb-[50px] ">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,
+                    eius Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, eius mod tempor incididunt labore mod tempor incididunt ut labore adipiscing.</p>
+
+                <div class="flex gap-4 md:gap-10 ">
+                    <button
+                        class="text-[12px] font-bold py-2 px-4 md:py-2.5 md:px-4 border-[1px] md:text-[16px]  rounded-4xl text-blue-500 bg-[#ffff] hover:bg-[#003461] hover:text-[#ffff]">More
+                        About us</button>
+                    <div class="flex md:gap-5 gap-5 justify-center items-center">
+                        <button class=" p-2.5 md:py-4 md:px-6 rounded-[50%] border-[1px] bg-[#ffff]
+                         text-blue-500 hover:bg-[#003461] hover:text-[#ffff] flex justify-center items-center">
+                            <i class="fa-solid fa-play text-[15px] "></i>
+                        </button>
+
+                        <span class="text-[#fff] text-[18px]  ">watch video</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div>
+                <img class="w-150 h-100 md:w-370 md:h-140" src="/src/book-image-main.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="bg-[#0067B8] p-3 md:py-10 md:px-10 ">
+        <h5 class="text-[#fff] text-[18px] font-[500] md:text-[20px]">
+            *eBook includes iBooks, PDF & ePub versions, Copy the title that fits best, insert your details and go
+        </h5>
+    </section>
+
+
+
+
+
+    <section class="bg-[#F3F3F3]">
+        <div class="lg:grid lg:grid-cols-3 lg:py-20 lg:px-15 md:grid-cols-1 py-16">
+            <div class="pt-10 pl-5 pr-5">
+                <img src="/src/icon-1.png" alt="">
+                <h3 class=" text-[23px] md:text-[30px] font-bold pt-4 pb-4">Experience</h3>
+                <p class=" text-[14px] md:text-[20px]">Lorem ipsum dolor amet, consectetur adipiscing elit, eius Lorem
+                    dolorsit
+                    consectetur.</p>
+            </div>
+
+
+            <div class="pt-10 pl-5 pr-5">
+                <img src="/src/icon-2.png" alt="">
+                <h3 class=" text-[23px] md:text-[30px] font-bold pt-4 pb-4">Marketing Goals</h3>
+                <p class=" text-[14px] md:text-[20px]">Lorem ipsum dolor amet, consectetur adipiscing elit, eius Lorem
+                    dolorsit
+                    consectetur.</p>
+            </div>
+
+
+            <div class="pt-10 pl-5 pr-5">
+                <img src="/src/icon-3.png" alt="">
+                <h3 class=" text-[23] md:text-[30px] font-bold pt-4 pb-4">Targetting Vission</h3>
+                <p class=" text-[14px] md:text-[20px]">Lorem ipsum dolor amet, consectetur adipiscing elit, eius Lorem
+                    dolorsit
+                    consectetur.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="lg:grid lg:grid-cols-2 lg:py-30 lg:px-13 md:grid-cols-1 py-10">
+            <div class="px-3">
+                <img class="h-120 w-90 md:h-180 md:w-130 pt-[40px]" src="/src/author.png" alt="">
+            </div>
+
+            <div class="py-5 px-3.5">
+                <h3 class=" text-[13px] pt-3 pb-3 md:text-[15px] text-[#1882db] font-bold tracking-[3px]">AUTHOR &
+                    PUBLISHER</h3>
+                <h1
+                    class=" text-[25px] font-bold pt-3.5 pb-7 lg:text-[60px] lg:font-bold lg:font-sans lg:pt-[10px] lg:pb-[10px]">
+                    Christina Tores <br class="hidden"> Mike</h1>
+                <p class=" text-[14px] md:text-[20px] font-sans pt--[10px] pb-[20px]">Lorem ipsum dolor sit amet, con ge
+                    sectetur
+                    adipiiscing elit, eius <br class="hidden"> Lorem ipsum dolor sit amet,
+                    coniscinsectetur adipiscing elit, eius <br class="hidden"> mod tempor incididunt labore mod sit amet
+                    <br>
+                    adipiscingconsectetur
+                </p>
+
+                <ul class="style-none">
+                    <li class="pb-4">
+                        <i class="fa-solid fa-check text-[#1882db]"></i>
+                        <span class=" text-[16px] md:text-[23px] font-[500] font-sans text-[#1E263B]">About Writting
+                            More
+                            Accomplished</span>
+                    </li>
+                    <li class="pb-4">
+                        <i class="fa-solid fa-check text-[#1882db]"></i>
+                        <span class="text-[17px] md:text-[23px] font-[500] font-sans text-[#1E263B]"> Exceptionally
+                            Energetic
+                            Accomplished 10+ <br class="hidden"> Granted</span>
+                    </li>
+                    <li class="pb-4">
+                        <i class="fa-solid fa-check text-[#1882db]"></i>
+                        <span class="text-[17px] md:text-[23px] font-[500] font-sans text-[#1E263B]">More Accomplished
+                            10+
+                            Granted</span>
+                    </li>
+                    <li class="pb-4">
+                        <i class="fa-solid fa-check text-[#1882db]"></i>
+                        <span class="text-[17px] mdtext-[23px] font-[500] font-sans text-[#1E263B]">Exceptionally
+                            Energetic About
+                            Writting</span>
+                    </li>
+                    <li class="pb-4">
+                        <i class="fa-solid fa-check text-[#1882db]"></i>
+                        <span class="text-[17px] md:text-[23px] font-[500] font-sans text-[#1E263B]">Most Popular
+                            Writter In The
+                            Year</span>
+                    </li>
+                </ul>
+
+
+                <img class="pt-[30px] pb-[30px]" src="/src/signature-1.png" alt="">
+
+                <button
+                    class="border-2 bg-[#1882db] text-[#ffff] py-3 px-6 rounded-4xl md:text-[18px] text-[13px] font-bold tracking-[1px]">learn
+                    More</button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="about" class="bg-[#003461]">
+        <div class="text-center pb-24 pt-24">
+            <h3 class="text-[#ffff] text-[13px] tracking-[5px] md:text-[18px] font-bold">BENEFITS</h3>
+            <h2 class="text-[#ffff] pt-3 text-[28px] font-bold font-sans md:text-[60px]">We Help You To Grow</h2>
+        </div>
+
+        <div class="grid grid-cols-1 gap-[35px] px-3 md:px-18 pb-[120px] md:pb-20 md:grid-cols-3">
+            <div class="bg-[#ffff] pb-10 py-10 px-6 rounded-[8px] ">
+                <img src="/src/icon-4.png" alt="">
+                <h3 class="text-[22.75px] md:text-[25px] font-[500] md:font-bold font-sans py-4 hover:text-[#0176FF]">
+                    Grow Your Personality</h3>
+                <p class="text-[14px] md:text-[20px] font-sans pb-[18px]">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, eius
+                    Lorem.</p>
+                <span class="text-[13px] md:text-[15px] font-[500] md:font-bold hover:text-[#0176FF]">Learn More <i
+                        class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+            <div class="bg-[#ffff] py-8 px-6 rounded-[8px]">
+                <img src="/src/icon-5.png" alt="">
+                <h3 class="text-[22.75px] md:text-[25px] font-bold font-sans py-4 hover:text-[#0176FF]">Grow Your
+                    Personality</h3>
+                <p class="text-[14px] md:text-[20px] font-sans pb-[18px]">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, eius
+                    Lorem.</p>
+                <span class="text-[13px] md:text-[15px] font-bold hover:text-[#0176FF]">Learn More <i
+                        class="fa-solid fa-arrow-right"></i></span>
+            </div>
+
+            <div class="bg-[#ffff] py-8 px-6 rounded-[8px]">
+                <img src="/src/icon-6.png" alt="">
+                <h3 class="text-[22.75px] md:text-[25px] font-bold font-sans py-4 hover:text-[#0176FF]">Grow Your
+                    Personality</h3>
+                <p class="text-[14px] md:text-[20px] font-sans pb-[18px]">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, eius
+                    Lorem.</p>
+                <span class="text-[13px] md:text-[15px] font-bold hover:text-[#31373c]">Learn More <i
+                        class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section>
+        <div class="flex-1 md:flex md:flex-2 justify-between py-20 md:px-25 px-5">
+            <div>
+                <h3 class=" text-[13px] font-bold md:text-[18px] md:tracking-[5px] tracking-[3px]">BEST SELLER</h3>
+                <p class="text-[23px] md:text-[40px] pb-4 font-bold">Pick The Book Weekly Best Seller.</p>
+            </div>
+
+            <div>
+                <button
+                    class="bg-[#212529] text-[#fff] hover:bg-[#fff] hover:text-[#212529] border-2  ease-in-out pr-[30px] pl-[20px] p-3 rounded-4xl text-[13px] font-bold">Find
+                    More in Shop</button>
+            </div>
+        </div>
+
+
+        <div class="px-5 md:px-25 pb-20 gap-10 flex-1  md:flex md:flex-4">
+            <div class="pb-10">
+                <img class="md:h-[300px] md:w-[270px] w-[305px]" src="/src/book-mockup2.png" alt="">
+                <div class="py-[20px] px-[20px] bg-[#F4F4F4]">
+                    <h5 class="pb-[20px] text-[11px] font-sans">personality, science</h5>
+                    <h3 class="text-[17px] md:text-[20px] font-bold pb-[10px]">The Glittering Stars <br class="hidden">
+                        books</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                    </div>
+
+                    <div>
+                        <span class="text-[16px] font-bold ">$75.00</span>
+                        <span class="text-[16px] font-bold text-[#6C757D]">$55.00</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pb-10">
+                <img class="md:h-[300px] md:w-[270px] w-[305px]" src="/src/book-mockup3.png" alt="">
+                <div class="py-[20px] px-[20px] bg-[#F4F4F4]">
+                    <h5 class="pb-[20px] text-[11px] font-sans">personality, science</h5>
+                    <h3 class="text-[17px] md:text-[20px] font-bold pb-[10px]">The Glittering Stars <br class="hidden">
+                        books</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                    </div>
+
+                    <div>
+                        <span class="text-[16px] font-bold">$75.00</span>
+                        <span class="text-[16px] font-bold text-[#6C757D]">$55.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pb-10">
+                <img class="md:h-[300px] md:w-[270px] w-[305px]" src="/src/book-mockup4.png" alt="">
+                <div class="py-[20px] px-[20px] bg-[#F4F4F4]">
+                    <h5 class="pb-[20px] text-[11px] font-sans">personality, science</h5>
+                    <h3 class="text-[20px] font-bold pb-[10px]">The Glittering Stars <br class="hidden"> books</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                    </div>
+
+                    <div>
+                        <span class="text-[16px] font-bold">$75.00</span>
+                        <span class="text-[16px] font-bold text-[#6C757D]">$55.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img class="md:h-[300px] md:w-[270px] w-[305px]" src="/src/book-mockup5.png" alt="">
+                <div class="py-[20px] px-[20px] bg-[#F4F4F4]">
+                    <h5 class="pb-[20px] text-[11px] font-sans">personality, science</h5>
+                    <h3 class="text-[20px] font-bold pb-[10px]">The Glittering Stars <br class="hidden"> books</h3>
+                    <div>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                        <i class="fa-solid fa-star text-[#ffc107]"></i>
+                    </div>
+
+                    <div>
+                        <span class="text-[16px] font-bold">$75.00</span>
+                        <span class="text-[16px] font-bold text-[#6C757D]">$55.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="bg-neutral-900">
+        <div class=" justify-center text-center md:py-[100px] md:px-[50px] py-28">
+            <h4 class="text-[#ffff] text-[18px] pb-[20px] md:text-[22px] font-sans font-bold">Exceptionally Energetic
+                About Writting</h4>
+            <h2 class="text-[#ffff] text-[28px] md:text-[50px] font-sans font-bold pt-[20px] pb-[20px]">Watching
+                Something
+                Inspirational</h2>
+
+            <div class="flex items-center justify-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vvKUuFk_uWI?si=Lsad4YcTurlzWc7l"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="py-28 px-3 md:py-30 md:px-12 bg-[#F4F4F4]">
+        <h4 class="text-center text-[13px] md:text-[16px] text-[#1882DB] pb-[10px] font-bold tracking-[3px]">BOOK
+            SUMMARY</h4>
+        <h4 class="text-center text-[28px] md:text-[50px] pb-25 font-bold">The Book Chapters</h4>
+
+        <div class="md:flex md:flex-3 flex-1 md:py-10 md:px-10 bg-[#ffff] gap-15">
+            <div class="justify-center text-center py-10 px-3">
+                <button
+                    class="text-[13px] md:text-[15px] rounded-2xl py-1.5 px-3 font-bold font-sans text-neutral-950 bg-gray-300 hover:text-[#fff] hover:bg-blue-400 ">Chapter
+                    1</button>
+                <h3 class="text-[21px] md:text-[25px] font-bold md:pt-[20px] md:pb-[30px] pb-5">Information Science <br
+                        class="hidden"> Process</h3>
+                <p class="text-[13px] md:text-[18px]">Elegantly composed book is worried about making typography and
+                    fundamental
+                    experts who routinelymaking</p>
+            </div>
+
+            <div class="justify-center text-center py-10 px-3">
+                <button
+                    class="text-[15px] rounded-2xl py-1.5 px-3 font-bold font-sans text-neutral-950 bg-gray-300 hover:text-[#fff] hover:bg-blue-400 ">Chapter
+                    2</button>
+                <h3 class="text-[21px] md:text-[25px] font-bold pt-[20px] pb-[30px] ">Information Science <br> Process
+                </h3>
+                <p class="text-[13px] md:text-[18px]">Elegantly composed book is worried about making typography and
+                    fundamental
+                    experts who routinelymaking</p>
+            </div>
+
+            <div class="justify-center text-center py-10 px-3">
+                <button
+                    class="text-[15px] rounded-2xl py-1.5 px-3 font-bold font-sans text-neutral-950 bg-gray-300 hover:text-[#fff] hover:bg-blue-400 ">Chapter
+                    2</button>
+                <h3 class=" text-[21px] md:text-[25px] font-bold pt-[20px] pb-[30px]">Information Science <br> Process
+                </h3>
+                <p class="text-[13px] md:text-[18px]">Elegantly composed book is worried about making typography and
+                    fundamental
+                    experts who routinelymaking</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- problem -->
+    <section>
+        <div class="flex-1 md:flex md:flex-2">
+            <div class="py-20 px-3 md:py-22 md:px-16">
+                <h3 class="text-[#1882DB] text-[13px] md:text-[15px] font-bold md:tracking-[5px] tracking-[3px]">
+                    CHAPTERS</h3>
+                <h2 class="text-[28px] md:text-[50px] font-bold pb-5">Why Choice The <br class="hidden"> Book</h2>
+                <P class="text-[14px] md:text-[18px] pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eius
+                    Lorem ipsum
+                    dolor
+                    sit amet, consectetur adipiscing elit, eius mod tempor incididunte mpincididunt ut labore
+                    consectetur adipiscing</P>
+                <ul class="list-unstyled check-icon py-2 grid grid-cols-2">
+                    <li>
+                        <i class="fa-solid fa-check text-4xl text-[16px] md:text-[20px] text-[#1882DB]"></i>
+                        <span class="text-[16px] md:text-[20px] font-[600]">Book Build</span>
+                        <p class="text-[14px] md:text-[17px] pl-7 md:pl-5 pt-4 pb-4">Lorem ipsum dolor sit amet,<br>
+                            consectetur</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-[16px] md:text-[20px] text-[#1882DB]"></i>
+                        <span class="text-[16px] md:text-[20px] font-[500]">Best for Read</span>
+                        <p class="text-[14px] md:text-[17px] pl-7 md:pl-5 pt-4 pb-4">Lorem ipsum dolor sit amet,
+                            <br>consectetur
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-[16px] md:text-[20px] text-[#1882DB]"></i>
+                        <span class="text-[16px] md:text-[20px] font-[500]">Perfect Format</span>
+                        <p class="text-[14px] md:text-[17px] pl-7 md:pl-5 pt-4 pb-4">Lorem ipsum dolor sit amet,<br>
+                            consectetur</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-[16px] md:text-[20px] text-[#1882DB]"></i>
+                        <span class="text-[16px] md:text-[20px] font-[500]">Build In PDF</span>
+                        <p class="text-[14px] md:text-[17px] pl-7 md:pl-5 pt-4 pb-4">Lorem ipsum dolor sit amet,
+                            <br>consectetur
+                        </p>
+                    </li>
+                </ul>
+                <p class="text-[15px] md:text-[18px] pb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eius
+                    Lorem ipsum
+                    dolor sit amet, consectetur
+                    adipiscing elit,</p>
+                <button
+                    class="py-3 px-5 bg-[#0d6efd] text-[#fff] rounded-4xl font-sans md:text-[17px] text-[13px] font-bold tracking-[1.5px]">Dawonlod
+                    PDF
+                    version</button>
+            </div>
+            <div class="px-3">
+                <img class="md:h-[700px] md:w-[1500px] " src="/src/image-1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- problem -->
+
+
+
+
+
+    <section class="bg-blue-950">
+        <div class="py-30 px-3 md:py-[120px] md:px-[50px]">
+            <h3
+                class="text-center text-[#ffff] text-[13px] md:text-[16px] font-bold font-sans tracking-[3px] md:tracking-[5px] pb-3">
+                TESTMONIAL</h3>
+            <h2 class="text-center text-[#ffff] text-[28px] md:text-[50px] font-bold font-sans pb-12">What Readers Are
+                Saying</h2>
+            <div class="flex items-center justify-center">
+                <img class="align-center" src="/src/quote.png" alt="">
+            </div>
+            <p class=" text-[16.25px] md:text-[20px] text-[#ffff] font-[500] text-center pt-8 pb-8">Lorem ipsum dolor
+                sit amet, consectetur
+                adipiscing elit, eius Lorem ipsum dolor sit amet,<br class="hidden"> consectetur adipiscing elit, eius
+                mod tempor
+                incididunt ut labore mod tempor incididunt ut <br class="hidden"> laboretur adipiscing elit, eius Lorem
+                ipsum dolor sit
+                amet, consectetur adipiscing elit</p>
+            <h4 class="text-center text-[#ffff] text-[20.28px] md:text-[25px] font-[500] font-sans">Alexander Mason</h4>
+            <h5 class="text-center text-[13px] md:text-[18px] text-[#ffff]">(Owner, Charitro)</h5>
+            <div class="flex items-center justify-center gap-5 pt-10 ">
+                <img src="/src/author-sm-2.png" alt="">
+                <img src="/src/author-sm-3.png" alt="">
+                <img src="/src/author-sm-2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="py-32 px-3 md:py-22 md:px-22  bg-[#F0F0F0]">
+        <h3
+            class="text-center text-[13px] md:text-[20px] font-bold md:font-[500] tracking-[3.5px] md:tracking-[5px] font-sans pb-[20px] text-[#0067B8]">
+            PRACING</h3>
+        <h2 class="text-center text-[28.463px] md:text-[60px] font-bold font-sans pb-[40px]">Pricing that’s just right
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+
+
+            <div class=" py-10 px-5 flex flex-col justify-center transition duration-200
+             hover:bg-blue-950 hover:text-[#ffff] group rounded-[8px] bg-[#ffff]">
+                <div class="flex flex-2 gap-14 pb-6">
+                    <div>
+                        <h3 class="text-[30px] font-[500] hover:text-[#fff]">Ebook</h3>
+                        <p class="text-[15px] font-[500] text-[#63717E] hover:text-[#fff]">Full Free Chapter</p>
+                    </div>
+                    <div class="justify-center">
+                        <h3 class="text-[40px] font-bold hover:text-[#fff]">Free</h3>
+                    </div>
+                </div>
+                <p class="text-[18px] hover:text-[#fff]">Get Ebbok version with audio book in with also Ebbok version
+                    audio book.</p>
+                <ul>
+                    <li>
+                        <div class="flex justify-between pt-5 pb-5">
+                            <span class="text-[18px] font-[500] hover:text-[#fff]">1 Free Chapter</span>
+                            <i class="fa-solid fa-check hover:text-[#fff]"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500] hover:text-[#fff]">Pdf File Format</span>
+                            <i class="fa-solid fa-check hover:text-[#fff]"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500] hover:text-[#fff]">Ebook Format</span>
+                            <i class="fa-solid fa-check hover:text-[#fff]"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500] hover:text-[#fff]">Hard Copy</span>
+                            <i class="fa-solid fa-xmark text-[#1882DB]"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500] hover:text-[#fff]">Audio Book</span>
+                            <i class="fa-solid fa-xmark text-[#1882DB]"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <button class="py-3 px-9 bg-black text-[#ffff] text-[17px] font-[500] rounded-4xl
+                     group-hover:bg-[#fff] group-hover:text-[#000000]">Get
+                    it now</button>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div
+                class=" py-10 px-5 flex flex-col justify-center transition duration-200 hover:bg-blue-950 hover:text-[#ffff] group rounded-[8px] bg-[#ffff]">
+                <div class="flex flex-2 gap-14 pb-6 ">
+                    <div>
+                        <h3 class="text-[30px] font-[500]">Ebook</h3>
+                        <p class="text-[15px] font-[500] text-[#63717E]">Full Free Chapter</p>
+                    </div>
+                    <div class="justify-center">
+                        <h3 class="text-[40px] font-bold">Free</h3>
+                    </div>
+                </div>
+                <p class="text-[18px]">Get Ebbok version with audio book in with also Ebbok version audio book.</p>
+                <ul>
+                    <li>
+                        <div class="flex justify-between pt-5 pb-5">
+                            <span class="text-[18px] font-[500]">1 Free Chapter</span>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Pdf File Format</span>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Ebook Format</span>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Hard Copy</span>
+                            <i class="fa-solid fa-xmark text-[#1882DB]"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Audio Book</span>
+                            <i class="fa-solid fa-xmark text-[#1882DB]"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <button
+                    class="py-3 px-9 bg-black text-[#ffff] text-[17px] font-[500] rounded-4xl group-hover:bg-[#fff] group-hover:text-[#000000]">Get
+                    it now</button>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div
+                class="py-10 px-5 flex flex-col justify-center transition duration-200 hover:bg-blue-950 hover:text-[#ffff] group rounded-[8px] bg-[#ffff]">
+                <div class="flex flex-2 gap-14 pb-6">
+                    <div>
+                        <h3 class="text-[30px] font-[500]">Ebook</h3>
+                        <p class="text-[15px] font-[500] text-[#63717E]">Full Free Chapter</p>
+                    </div>
+                    <div class="justify-center">
+                        <h3 class="text-[40px] font-bold">Free</h3>
+                    </div>
+                </div>
+                <p class="text-[18px]">Get Ebbok version with audio book in with also Ebbok version audio book.</p>
+                <ul>
+                    <li>
+                        <div class="flex justify-between pt-5 pb-5">
+                            <span class="text-[18px] font-[500]">1 Free Chapter</span>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Pdf File Format</span>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Ebook Format</span>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Hard Copy</span>
+                            <i class="fa-solid fa-xmark text-[#1882DB]"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between pb-5">
+                            <span class="text-[18px] font-[500]">Audio Book</span>
+                            <i class="fa-solid fa-xmark text-[#1882DB]"></i>
+                        </div>
+                    </li>
+                </ul>
+
+                <button
+                    class="py-3 px-9 bg-black text-[#ffff] text-[17px] font-[500] rounded-4xl group-hover:bg-[#fff] group-hover:text-[#000000]">Get
+                    it now</button>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="py-16 px-3 md:py-24 md:px-20">
+        <h3
+            class="text-[13px] font-bold tracking-[3.5px] md:text-[17px] md:font-[500] md:tracking-[5px] text-[#1882DB] font-sans text-center pb-5">
+            LATEST NEWS</h3>
+        <h2 class="text-[28.463px] md:text-[50px] font-bold font-sans text-center pb-6">Fresh insights from Author every
+            week.</h2>
+
+        <div class="flex-1 md:flex md:flex-3 gap-15 pb-20">
+
+
+            <div class="rounded-[7px] pb-10">
+                <img class="h-[250px] w-[350px]" src="/src/image-2.png" alt="">
+                <div class="bg-gray-100 pt-5 pb-8 px-5 rounded-b-[7px]">
+                    <div>
+                        <i class="fa-solid fa-user text-[#6C757D]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">Admin</span>
+                        <i class="fa-solid fa-comment text-[#6C757D] pl-[7px]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">Comments</span>
+                        <i class="fa-solid fa-calendar text-[#6C757D] pl-[7px]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">April 26, 2022</span>
+                    </div>
+                    <h3 class="text-[24px] font-bold font-sans pt-[10px] pb-[5px]">best books of January: This week’s
+                        releases</h3>
+                    <p class="text-[18px] font-sans pb-[6px]">Lorem ipsum dolor sit amet consectetur conse adipiscing
+                        elit, eius Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                    <button class="text-[16px] font-[500] hover:text-[#1882DB]">Read More <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="rounded-[7px] pb-10">
+                <img class="h-[250px] w-[350px]" src="/src/image-3.png" alt="">
+                <div class="bg-gray-100 pt-5 pb-8 px-5 rounded-b-[7px]">
+                    <div>
+                        <i class="fa-solid fa-user text-[#6C757D]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">Admin</span>
+                        <i class="fa-solid fa-comment text-[#6C757D] pl-[7px]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">Comments</span>
+                        <i class="fa-solid fa-calendar text-[#6C757D] pl-[7px]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">April 26, 2022</span>
+                    </div>
+                    <h3 class="text-[24px] font-bold font-sans pt-[10px] pb-[5px]">best books of January: This week’s
+                        releases</h3>
+                    <p class="text-[18px] font-sans pb-[6px]">Lorem ipsum dolor sit amet consectetur conse adipiscing
+                        elit, eius Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                    <button class="text-[16px] font-[500] hover:text-[#1882DB]">Read More <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="rounded-[7px] pb-10">
+                <img class="h-[250px] w-[350px]" src="/src/image-4.png" alt="">
+                <div class="bg-gray-100 pt-5 pb-8 px-5 rounded-b-[7px]">
+                    <div>
+                        <i class="fa-solid fa-user text-[#6C757D]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">Admin</span>
+                        <i class="fa-solid fa-comment text-[#6C757D] pl-[7px]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">Comments</span>
+                        <i class="fa-solid fa-calendar text-[#6C757D] pl-[7px]"></i>
+                        <span class="text-[15px] font-[500] text-[#6C757D]">April 26, 2022</span>
+                    </div>
+                    <h3 class="text-[24px] font-bold font-sans pt-[10px] pb-[5px]">best books of January: This week’s
+                        releases</h3>
+                    <p class="text-[18px] font-sans pb-[6px]">Lorem ipsum dolor sit amet consectetur conse adipiscing
+                        elit, eius Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                    <button class="text-[16px] font-[500] hover:text-[#1882DB]">Read More <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="bg-[#003461] md:flex md:flex-2 flex-1 gap-20 md:py-10 md:px-10 py-10 pl-10">
+            <div class="flex flex-2 gap-5 justify-center items-center pl-10 pb-5">
+                <div>
+                    <img src="/icon-1.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="text-[20px] md:text-[25px] font-[500] font-sans text-[#fff]">Book Information?</h3>
+                    <p class="text-[13px] md:text-[18px] font-sans text-[#fff]">Please send us an email at
+                        support@bookpress.com</p>
+                </div>
+            </div>
+
+
+
+            <div class="flex flex-2 gap-5">
+                <div>
+                    <img src="/icon-2.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="text-[20px] md:text-[25px] font-[500] font-sans text-[#fff]">Need Help?</h3>
+                    <p class="text-[13px] md:text-[18px] font-sans text-[#fff]">Please call us at +860 222.125.456.01
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="bg-[#212529]">
+
+
+
+        <div class="md:flex md:flex-4 md:py-16 md:pl-8 py-7 pl-1">
+            <div class="pt-5 pl-5 pr-5">
+                <img src="/logo-main-2.png" alt="">
+                <p class="text-[13.50px] md:text-[18px] text-[#A3A9BF] font-sans pt-5 pb-5">Lorem ipsum dolor sit
+                    amet,<br class="hidden"> consec tetur
+                    adipiscing elit,<br class="hidden"> sed eiusmod incididunt psum <br class="hidden">dolor amet</p>
+                <ul class="flex gap-4 md:gap-10">
+                    <li class="p-3 md:p-6 bg-[#4469B5] rounded-[50%] text-[#fff]"><i
+                            class="fa-brands fa-facebook-f "></i></li>
+                    <li class="p-3 md:p-6 bg-[#0d6efd] rounded-[50%] text-[#fff]"><i class="fa-brands fa-twitter "></i>
+                    </li>
+                    <li class="p-3 md:p-6 bg-[#1378B3] rounded-[50%] text-[#fff]"><i class="fa-brands fa-vimeo-v"></i>
+                    </li>
+                    <li class="p-3 md:p-6 bg-[#D94E42] rounded-[50%] text-[#fff]"><i
+                            class="fa-brands fa-pinterest "></i></li>
+                </ul>
+            </div>
+
+
+            <div class="pt-5 pl-5 pr-5">
+                <h3 class="text-[24px] font-sans pb-5 text-[#fff]">Important Links</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-minus text-[#fff]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">Website Development</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-minus text-[#fff]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">Web Applications</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-minus text-[#fff]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">Mobile Applications</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-minus text-[#fff]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">UI/UX Design</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-minus text-[#fff]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">Data Marketing</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-minus text-[#fff]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">Our Project</span>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="pt-5 pl-5 pr-5">
+                <h3 class="text-[24px] font-sans pb-5 text-[#fff]">Contact</h3>
+                <ul>
+                    <li class="pb-5">
+                        <i class="fa-solid fa-location-dot text-[#1882DB]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] font-sans"> Wave, via habro dereinio 2b 52100 Arezo,
+                            italy</span>
+                    </li>
+                    <li class="pb-5">
+                        <i class="fa-solid fa-envelope text-[#1882DB]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">yoursite@example.com</span>
+                    </li>
+                    <li class="pb-5">
+                        <i class="fa-solid fa-phone text-[#1882DB]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5">+65 8133 3116 (Toll Free)</span>
+                    </li>
+                    <li class="pb-5">
+                        <i class="fa-solid fa-fax text-[#1882DB]"></i>
+                        <span class="text-[17px] text-[#A3A9BF] pb-5"> +65 8133 3116</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="pt-5 pl-5 pr-5">
+                <h3 class="text-[23px] font-sans pb-5 text-[#fff]">Subscription</h3>
+                <input class="text-[#A3A9BF] p-3 pb-5" placeholder="Your Email" type="text">
+                <p class="text-[17px] text-[#A3A9BF] pt-5 pb-8">Sign up for our latest news & articel. We won’t give you
+                    spam mails.</p>
+                <div class="flex-1 md:flex gap-3">
+                    <img class="pb-5" src="/visa.png" alt="">
+                    <img class="pb-5" src="/mastercard.png" alt="">
+                    <img class="pb-5" src="/american-express.png" alt="">
+                    <img class="pb-5" src="/discover.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
